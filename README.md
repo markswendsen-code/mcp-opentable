@@ -57,7 +57,7 @@ Add to your `~/Library/Application Support/Claude/claude_desktop_config.json`:
 
 ## Metrics
 
-- **Weekly downloads:** 33 (Apr 3-9, 2026) — Top restaurant connector
+- **Weekly downloads:** 187 (Apr 10-17, 2026) — Top restaurant connector (+467% growth)
 - **Status:** ✅ Live in production
 - **Reliability:** 85%+ task completion rate
 - **Discovery:** npm, Claude Plugins, mcpservers.org, ClawHub, PulseMCP

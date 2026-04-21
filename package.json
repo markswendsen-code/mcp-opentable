@@ -1,7 +1,7 @@
 {
   "name": "@striderlabs/mcp-opentable",
-  "version": "0.1.1",
-  "description": "MCP server for OpenTable - let AI agents search restaurants and make reservations",
+  "version": "0.1.4",
+  "description": "Restaurant discovery and autonomous reservations via OpenTable. Let your AI agent search dining options, check real-time availability, and book tables. Persistent session management for travel agents and personal AI assistants. Production-ready MCP server.",
   "main": "dist/index.js",
   "bin": {
     "striderlabs-mcp-opentable": "dist/index.js"
@@ -13,16 +13,24 @@
   },
   "keywords": [
     "mcp",
-    "opentable",
-    "restaurant reservation",
-    "table booking",
-    "dining automation",
-    "restaurant search",
-    "ai-agent",
+    "model-context-protocol",
+    "agent",
     "autonomous-agent",
     "personal-agent",
-    "model-context-protocol",
-    "browser-automation"
+    "opentable",
+    "restaurant-reservations",
+    "dining-reservations",
+    "restaurant-booking",
+    "reservation-agent",
+    "booking-agent",
+    "agent-commerce",
+    "restaurant-reservation-automation",
+    "autonomous-reservations",
+    "mcp-travel",
+    "travel-agent-mcp",
+    "agent-action-execution",
+    "ai-agent-integration",
+    "opentable-automation"
   ],
   "author": "Strider Labs <hello@striderlabs.ai>",
   "license": "MIT",

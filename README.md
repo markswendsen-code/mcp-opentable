@@ -4,27 +4,16 @@
 
 [![npm](https://img.shields.io/npm/v/@striderlabs/mcp-opentable)](https://www.npmjs.com/package/@striderlabs/mcp-opentable)
 [![MCP Registry](https://img.shields.io/badge/MCP-Registry-blue)](https://mcpservers.org/servers/strider-labs-opentable)
+[![Claude Desktop](https://img.shields.io/badge/Claude-Desktop-blue)](https://docs.anthropic.com/mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Part of [Strider Labs](https://github.com/striderlabsdev/striderlabs) — action execution for personal AI agents.
 
-## Installation
+## Get Started in 2 Minutes
 
-```bash
-npm install @striderlabs/mcp-opentable
-```
+### For Claude Desktop Users
 
-Or with npx:
-
-```bash
-npx @striderlabs/mcp-opentable
-```
-
-## Quick Start
-
-### Claude Desktop Configuration
-
-Add to your `~/Library/Application Support/Claude/claude_desktop_config.json`:
+1. Add this to your Claude Desktop config:
 
 ```json
 {
@@ -37,11 +26,23 @@ Add to your `~/Library/Application Support/Claude/claude_desktop_config.json`:
 }
 ```
 
-### Your Agent Can Now
+2. Restart Claude.
+3. Tell Claude: *"Book a table for 4 at an Italian restaurant for 7 PM tonight"*
 
+Your agent can now book reservations. That's it.
+
+---
+
+## Installation (NPM)
+
+```bash
+npm install @striderlabs/mcp-opentable
 ```
-"Book a table for 4 at the best Italian place near work for 7 PM tonight"
-→ Agent searches restaurants → Checks availability → Reserves table
+
+Or with npx directly:
+
+```bash
+npx @striderlabs/mcp-opentable
 ```
 
 ## Features
@@ -54,6 +55,16 @@ Add to your `~/Library/Application Support/Claude/claude_desktop_config.json`:
 - 🔐 **Persistent sessions** - stay logged in across restarts
 - 🔄 **Automatic MFA** - handles multi-factor authentication
 - 📱 **Per-user credentials** - encrypted session storage
+
+## Tested & Compatible
+
+| Component | Version | Status |
+|-----------|---------|--------|
+| **MCP SDK** | ^1.0.0 | ✅ |
+| **Node.js** | 18+ | ✅ |
+| **Claude Desktop** | Latest | ✅ |
+| **Claude (API)** | claude-3.5-sonnet+ | ✅ |
+| **Anthropic SDK** | ^0.20+ | ✅ |
 
 ## Metrics
 

@@ -1,0 +1,25 @@
+{
+  "name": "striderlabs-opentable",
+  "description": "Make restaurant reservations on OpenTable. Let AI agents search restaurants, check availability, and book tables.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Strider Labs",
+    "email": "hello@striderlabs.ai",
+    "url": "https://striderlabs.ai"
+  },
+  "homepage": "https://striderlabs.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markswendsen-code/mcp-opentable"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "opentable",
+    "reservations",
+    "restaurants",
+    "dining",
+    "ai-agent",
+    "automation"
+  ]
+}

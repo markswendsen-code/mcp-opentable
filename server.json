@@ -6,12 +6,12 @@
     "url": "https://github.com/markswendsen-code/mcp-opentable",
     "source": "github"
   },
-  "version": "0.1.4",
+  "version": "0.1.5",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@striderlabs/mcp-opentable",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "transport": {
         "type": "stdio"
       }
